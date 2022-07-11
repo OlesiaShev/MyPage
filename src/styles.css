@@ -1,0 +1,34 @@
+.topLine {
+    background: linear-gradient(-20deg, #258ca2 0%, #05cffc 100%);
+    position: relative;
+    
+}
+.changeLanguage{
+    display: flex;
+    align-items: center;
+}
+.flag{
+    width: 30px;
+    display: inline-block;
+    padding-left: 8px;
+}
+.language{
+    display: inline-block;
+    align-items: center;
+}
+.myName{
+    display: flex;
+    left: 0;
+    padding-block-end: inherit;
+}
+.header{
+    padding: 0px;
+    font-family: Quicksand;
+    font-size: large;
+}
+.headerLang{
+    padding: 0px;
+    font-family: Quicksand;
+    font-size: large;
+    text-align: end;
+}
