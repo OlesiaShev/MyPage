@@ -1,7 +1,11 @@
 .topLine {
     background: linear-gradient(-20deg, #258ca2 0%, #05cffc 100%);
     position: relative;
-    
+    height: max-content;
+    z-index: 1;
+}
+.moveToSide{
+    margin: 0;
 }
 .changeLanguage{
     display: flex;
@@ -20,6 +24,7 @@
     display: flex;
     left: 0;
     padding-block-end: inherit;
+    text-align: left;
 }
 .header{
     padding: 0px;
@@ -30,5 +35,18 @@
     padding: 0px;
     font-family: Quicksand;
     font-size: large;
-    text-align: end;
+    text-align: right;
+}
+.whiteLine{
+    background: white;
+    position: fixed;
+    left: 0;
+    width: -webkit-fill-available;
+    min-width: min-content;
+    padding-left: 10px;
+    text-align: center;
+    font-family: Quicksand;
+    height: 50px;
+    align-items: center;
+    height: fit-content;
 }
