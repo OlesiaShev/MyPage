@@ -1,52 +1,23 @@
-.topLine {
-    background: linear-gradient(-20deg, #258ca2 0%, #05cffc 100%);
-    position: relative;
-    height: max-content;
-    z-index: 1;
-}
-.moveToSide{
+.generalBody{
     margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: static;    
 }
-.changeLanguage{
-    display: flex;
-    align-items: center;
-}
-.flag{
-    width: 30px;
-    display: inline-block;
-    padding-left: 8px;
-}
-.language{
-    display: inline-block;
-    align-items: center;
-}
-.myName{
-    display: flex;
-    left: 0;
-    padding-block-end: inherit;
-    text-align: left;
-}
-.header{
-    padding: 0px;
-    font-family: Quicksand;
-    font-size: large;
-}
-.headerLang{
-    padding: 0px;
-    font-family: Quicksand;
-    font-size: large;
-    text-align: right;
-}
-.whiteLine{
-    background: white;
-    position: fixed;
-    left: 0;
-    width: -webkit-fill-available;
-    min-width: min-content;
-    padding-left: 10px;
-    text-align: center;
-    font-family: Quicksand;
+.Blueline{
+    background: linear-gradient(-20deg, #258ca2 0%, #05cffc 100%);
     height: 50px;
+    display: flex;
+    position: static;
     align-items: center;
-    height: fit-content;
+}
+.welcome{
+    padding-left: 3%;
+}
+.Whiteline{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: Josefin Sans;
 }
