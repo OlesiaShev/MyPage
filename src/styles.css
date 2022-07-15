@@ -4,7 +4,7 @@
 .generalBody{
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: scroll;
     position: static;    
 }
 .Blueline{
@@ -14,7 +14,7 @@
     display: flex;
     position: static;
     align-items: center;
-    font-weight: 20px;
+    padding-right: 5px;
 }
 .welcome{
     padding-left: 3%;
@@ -24,13 +24,19 @@
     
 }
 .Whiteline{
-    padding: 10px 10px 0px 0px;
+    padding: 10px 0px 0px 10px;
     display: flex;
     align-items: center;
     text-align: center;
     font-family: Josefin Sans;
     background-color: black;
     color: white;
+    cursor: pointer;
+    height: fit-content;
+    min-height: 45px;
+}
+.Whiteline h6:hover{
+    font-size: large;
 }
 .languageChange{
     color: black;
@@ -50,7 +56,52 @@
     color: #0E185F;
     font-size: 18px;
 }
+.projects{
+    margin: 40px 20px 40px 60px;
+    text-align: center;
+    color: #0E185F;
+}
 .aboutPerson img{
-    max-width: 190px;
+    max-width: 188px;
     min-width: 40%;
+    padding: 10px;
+}
+p{
+    text-align: justify;
+}
+hr{
+    margin-left: 60px;
+}
+.icons{
+    color: #0E185F;
+    font-size: 28px;
+    padding: 10px 10px;
+    position: fixed;
+    bottom: 0;
+}
+.iconsHover:hover i{
+    font-size: 32px;
+    cursor: pointer;
+}
+.chapter{
+    font-family: Josefin Sans;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: black;
+}
+.applications {
+margin: 0px 0px 20px 0px;
+}
+
+.applications:hover{
+    transform: scale(1.01);
+}
+.boxSize{
+    height: 265px;
+    padding-bottom: 0;
+}
+.imgForApp{
+    position: absolute;
+    bottom: 10%;
 }
