@@ -79,6 +79,9 @@ hr{
     position: fixed;
     bottom: 0;
 }
+.icons a{
+    color: #0E185F;
+}
 .iconsHover:hover i{
     font-size: 32px;
     cursor: pointer;
