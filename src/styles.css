@@ -26,6 +26,9 @@
 .Whiteline{
     padding: 10px 0px 0px 10px;
     display: flex;
+    position: sticky !important;
+    top: 0px;
+    z-index: 1000;
     align-items: center;
     text-align: center;
     font-family: Josefin Sans;
@@ -90,11 +93,12 @@ hr{
     font-family: Josefin Sans;
     text-align: center;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin: 40px 0px 40px 0px;
     color: black;
 }
 .applications {
 margin: 0px 0px 20px 0px;
+height: 16rem;
 }
 
 .applications:hover{
@@ -107,4 +111,14 @@ margin: 0px 0px 20px 0px;
 .imgForApp{
     position: absolute;
     bottom: 10%;
+}
+.SkillsImage{
+    display: flex;
+    width: 35%;
+}
+.skills{
+    display: flex;
+    margin: 30px 20px 20px 60px;
+    color: #0E185F;
+    font-size: 18px;
 }
