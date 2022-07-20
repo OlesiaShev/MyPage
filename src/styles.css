@@ -124,12 +124,12 @@ height: 16rem;
 }
 .skillsIcons{
     font-size: 18px;
-}
-.skillsIcons ul{
-    margin-left: 10px;
+    color: #0d1762;
+    font-weight: bold;
 }
 .codingSkillsChapter{
     text-align: center;
     font-size: 18px;
     font-family: Josefin Sans;
+    padding: 15px 0px 15px 0px;
 }
