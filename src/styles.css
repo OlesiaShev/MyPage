@@ -134,6 +134,18 @@ height: 16rem;
 }
 .contacts{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+}
+.contactImage{
+    width: 40%;
+}
+.fontawesomeContact{
+    font-size: 22px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding: 0;
 }
 
