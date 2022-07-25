@@ -137,15 +137,43 @@ height: 16rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #0d1762;
 }
 .contactImage{
     width: 40%;
+    padding: 0px;
 }
 .fontawesomeContact{
-    font-size: 22px;
+     font-size: 22px;
     width: 35px;
     height: 35px;
     text-align: center;
-    padding: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    color: #0d1762;
 }
-
+.fontawesomeContact a{
+    color: #252e77;
+}
+.beFriends{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cv{
+    display: flex;
+    align-items: center;
+    font-size: large;
+    color: #252e77;
+    justify-content: center;
+}
+.cv a{
+    text-decoration: none;
+}
+.cv:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
