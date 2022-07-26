@@ -177,3 +177,6 @@ height: 16rem;
     text-decoration: underline;
     cursor: pointer;
 }
+.email{
+    list-style: none;
+}
