@@ -38,6 +38,10 @@
     height: fit-content;
     min-height: 45px;
 }
+.links{
+    color: white;
+    text-decoration: none;
+}
 .Whiteline h6:hover{
     font-size: large;
 }
@@ -73,7 +77,7 @@ p{
     text-align: justify;
 }
 hr{
-    margin-left: 60px;
+    margin: 65px 0px 65px 60px;
 }
 .icons{
     color: #0E185F;
