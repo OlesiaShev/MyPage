@@ -20,6 +20,6 @@ event.preventDefault();
     alert("hello!");
 }
 
-let currentLanguage = document.querySelector("languageChange");
+let currentLanguage = document.querySelector(".languageChange");
 currentLanguage.addEventListener("click", showLanguageSign);
 

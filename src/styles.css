@@ -1,14 +1,12 @@
 :root{
     --main-color: #0E185F;
 }
-.background{
-    background-color: #E8FFC2;
-}
 .generalBody{
     margin: 0;
     padding: 0;
     overflow: scroll;
-    position: static;    
+    position: static;   
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%); 
 }
 .Blueline{
     background: linear-gradient(-20deg, #0E185F 0%, #0d1763 100%);
