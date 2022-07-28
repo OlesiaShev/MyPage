@@ -15,3 +15,11 @@ function displaySkills()
     SkillsElement.innerHTML = skillsHTML;
 }
 displaySkills();
+function showLanguageSign(event){
+event.preventDefault();
+    alert("hello!");
+}
+
+let currentLanguage = document.querySelector("languageChange");
+currentLocationButton.addEventListener("click", showLanguageSign);
+

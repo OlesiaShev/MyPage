@@ -79,7 +79,7 @@
 .aboutPerson img{
     max-width: 188px;
     min-width: 40%;
-    padding: 10px;
+    padding: 10px 0px 20px 30px;
 }
 p{
     text-align: justify;
