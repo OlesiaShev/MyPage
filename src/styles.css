@@ -1,3 +1,6 @@
+:root{
+    --main-color: #0E185F;
+}
 .background{
     background-color: #E8FFC2;
 }
@@ -37,6 +40,10 @@
     cursor: pointer;
     height: fit-content;
     min-height: 45px;
+    justify-content: space-evenly;
+}
+.categories{
+    flex: 1;
 }
 .links{
     color: white;
@@ -60,13 +67,14 @@
 }
 .aboutPerson{
     margin: 30px 20px 20px 60px;
-    color: #0E185F;
+    color: var(--main-color);
     font-size: 18px;
 }
 .projects{
     margin: 40px 20px 40px 60px;
     text-align: center;
-    color: #0E185F;
+    color: var(--main-color);
+    display: flex;
 }
 .aboutPerson img{
     max-width: 188px;
@@ -77,16 +85,16 @@ p{
     text-align: justify;
 }
 hr{
-    margin: 65px 0px 65px 60px;
+    margin: 65px 0px 65px 0px;
 }
 .icons{
-    color: #0E185F;
+    color: var(--main-color);
     font-size: 28px;
     padding: 10px 10px;
     position: fixed;
 }
 .icons a{
-    color: #0E185F;
+    color: var(--main-color);
 }
 .iconsHover:hover i{
     font-size: 32px;
@@ -100,8 +108,8 @@ hr{
     color: black;
 }
 .applications {
-margin: 0px 0px 20px 0px;
-height: 16rem;
+    margin: 20px;
+    flex: 1;
 }
 
 .applications:hover{
@@ -123,11 +131,11 @@ height: 16rem;
     margin: 0;
     list-style-type: none;
     font-size: 18px;
-    color: #0E185F;
+    color: var(--main-color);
 }
 .skillsIcons{
     font-size: 18px;
-    color: #0d1762;
+    color: var(--main-color);
     font-weight: bold;
 }
 .codingSkillsChapter{
@@ -144,7 +152,7 @@ height: 16rem;
     color: #0d1762;
 }
 .contactImage{
-    width: 40%;
+    width: 50%;
     padding: 0px;
 }
 .fontawesomeContact{
@@ -183,4 +191,17 @@ height: 16rem;
 }
 .email{
     list-style: none;
+}
+.myContacts{
+    display: flex;
+    margin-left: 60px;
+} 
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin Sans;
+    font-size: large;
+    
 }

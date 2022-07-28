@@ -6,7 +6,7 @@ function displaySkills()
     skillsList.forEach(function (skill)
     {
         skillsHTML = skillsHTML +
-            `<div class="col-4 col-sm-2">
+            `<div class="categories">
                 <h6>
                 <a href="#${skill}" class="links">${skill}</a>
                 </h6>
