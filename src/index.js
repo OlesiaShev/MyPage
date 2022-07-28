@@ -21,5 +21,5 @@ event.preventDefault();
 }
 
 let currentLanguage = document.querySelector("languageChange");
-currentLocationButton.addEventListener("click", showLanguageSign);
+currentLanguage.addEventListener("click", showLanguageSign);
 
