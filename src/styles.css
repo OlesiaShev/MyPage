@@ -151,6 +151,7 @@ hr{
 .contactImage{
     width: 100%;
     padding: 0px;
+    border: 13px solid white;
 }
 .fontawesomeContact{
     font-size: 22px;
@@ -198,8 +199,9 @@ hr{
     align-items: center;
     font-family: Josefin Sans;
     font-size: large;
-    margin-top: 20px;
-    flex-direction: column
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
 } 
 .line{
     top: 80px;
@@ -216,4 +218,23 @@ hr{
     margin: 0;
     padding: 0;
     position: fixed;
+}
+.myPhoto img{
+    width: 100%;
+    padding: 0px;
+    border: 13px solid white;
+    margin-bottom: 40px;
+}
+.finalInfo{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    padding: 10px 20px 40px 20px;
+    font-size: 18px;
+}
+.gitLink{
+    font-size: x-small;
+    font-family: Josefin Sans;
+    text-align: center;
 }
