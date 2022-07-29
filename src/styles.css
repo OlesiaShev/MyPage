@@ -51,8 +51,10 @@
     font-size: large;
 }
 .languageChange{
-    color: black;
+    color: blue;
     text-decoration: underline;
+    font-size: small;
+    padding: 5px;
 }
 .flag{
     display: flex;
