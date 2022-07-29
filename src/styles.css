@@ -9,7 +9,7 @@
     background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%); 
 }
 .Blueline{
-    background: linear-gradient(-20deg, #0E185F 0%, #0d1763 100%);
+    background: linear-gradient(-20deg, var(--main-color) 0%, #0b1b92 100%);
     color: white;
     height: 70px;
     display: flex;
@@ -237,4 +237,11 @@ hr{
     font-size: x-small;
     font-family: Josefin Sans;
     text-align: center;
+}
+.year{
+    background: linear-gradient(-20deg, var(--main-color) 0%, #0b1b92 100%);
+    color: white;
+    font-family: Josefin Sans;
+    text-align: center;
+    font-size: 18px;
 }
