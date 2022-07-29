@@ -153,7 +153,7 @@ hr{
     padding: 0px;
 }
 .fontawesomeContact{
-     font-size: 22px;
+    font-size: 22px;
     width: 35px;
     height: 35px;
     text-align: center;
@@ -162,10 +162,14 @@ hr{
     align-items: center;
     justify-content: center;
     margin: 5px;
-    color: #0d1762;
+    border: 3px solid var(--main-color);
+    border-radius: 50%;
+    color: var(--main-color);
+    text-decoration: none;
 }
 .fontawesomeContact a{
-    color: #252e77;
+    color: var(--main-color);
+    
 }
 .beFriends{
     display: flex;
@@ -191,10 +195,25 @@ hr{
 }
 .myContacts{
     display: flex;
-    justify-content: center;
-    flex-direction: column;
     align-items: center;
     font-family: Josefin Sans;
     font-size: large;
     margin-top: 20px;
+    flex-direction: column
 } 
+.line{
+    top: 80px;
+    left: -50px;
+    transform: rotate(90deg);
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+.lineSecond{
+    top: 100px;
+    left: -50px;
+    transform: rotate(90deg);
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
