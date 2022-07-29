@@ -106,7 +106,6 @@ hr{
     color: black;
 }
 .applications {
-    margin: 20px;
     flex: 1;
 }
 
@@ -150,7 +149,7 @@ hr{
     color: #0d1762;
 }
 .contactImage{
-    width: 50%;
+    width: 100%;
     padding: 0px;
 }
 .fontawesomeContact{
@@ -192,14 +191,10 @@ hr{
 }
 .myContacts{
     display: flex;
-    margin-left: 60px;
-} 
-.social{
-    display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     font-family: Josefin Sans;
     font-size: large;
-    
-}
+    margin-top: 20px;
+} 
