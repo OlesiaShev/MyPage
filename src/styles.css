@@ -40,9 +40,6 @@
     min-height: 45px;
     justify-content: space-evenly;
 }
-.categories{
-    flex: 1;
-}
 .links{
     color: white;
     text-decoration: none;
@@ -54,7 +51,6 @@
     color: blue;
     text-decoration: underline;
     font-size: small;
-    padding: 5px;
 }
 .flag{
     display: flex;
@@ -66,12 +62,12 @@
     padding: 0;
 }
 .aboutPerson{
-    margin: 30px 20px 20px 40px;
+    margin: 30px 20px 20px 20px;
     color: var(--main-color);
     font-size: 18px;
 }
 .projects{
-    margin: 40px 20px 40px 60px;
+    margin: 40px 20px 40px 30px;
     text-align: center;
     color: var(--main-color);
     display: flex;
@@ -107,10 +103,6 @@ hr{
     margin: 40px 0px 20px 0px;
     color: black;
 }
-.applications {
-    flex: 1;
-}
-
 .applications:hover{
     transform: scale(1.01);
 }
@@ -153,7 +145,7 @@ hr{
 .contactImage{
     width: 100%;
     padding: 0px;
-    border: 13px solid white;
+    border: 15px solid white;
 }
 .fontawesomeContact{
     font-size: 22px;
@@ -241,7 +233,7 @@ hr{
     text-align: center;
 }
 .year{
-    background: linear-gradient(-20deg, var(--main-color) 0%, #0b1b92 100%);
+    background: linear-gradient(89deg, #bd7f8b 27%, #eecdd3 79%);;
     color: white;
     font-family: Josefin Sans;
     text-align: center;
