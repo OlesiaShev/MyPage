@@ -15,14 +15,12 @@
     display: flex;
     position: static;
     align-items: center;
-    padding-right: 5px;
 }
 .welcome{
-    padding-left: 3%;
     font-weight: bold;
     display: flex;
+    align-content: center;
     align-items: center;
-    
 }
 .Whiteline{
     padding: 10px 0px 0px 10px;
@@ -52,10 +50,14 @@
     text-decoration: underline;
     font-size: small;
 }
-.flag{
-    display: flex;
-    align-items: center;
-}
+
+
+@media (max-width: 800px) { 
+            .flag{
+                display: none;
+            }
+        }
+
 .oliveLine{
     background-color: #E8FFC2;
     margin: 0;
