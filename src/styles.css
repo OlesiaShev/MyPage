@@ -7,6 +7,7 @@
     overflow: scroll;
     position: static;   
     background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%); 
+    font-family: Josefin Sans, Raleway;
 }
 .Blueline{
     background: linear-gradient(-20deg, var(--main-color) 0%, #0b1b92 100%);
@@ -30,7 +31,6 @@
     z-index: 1000;
     align-items: center;
     text-align: center;
-    font-family: Josefin Sans;
     background-color: black;
     color: white;
     cursor: pointer;
@@ -99,7 +99,6 @@ hr{
     cursor: pointer;
 }
 .chapter{
-    font-family: Josefin Sans;
     text-align: center;
     font-weight: bold;
     margin: 40px 0px 20px 0px;
@@ -133,7 +132,6 @@ hr{
 }
 .codingSkillsChapter{
     font-size: 18px;
-    font-family: Josefin Sans;
     padding: 15px 0px 15px 0px;
 }
 .contacts{
@@ -192,7 +190,6 @@ hr{
 .myContacts{
     display: flex;
     align-items: center;
-    font-family: Josefin Sans;
     font-size: large;
     flex-direction: column;
     justify-content: space-between;
@@ -230,13 +227,11 @@ hr{
 }
 .gitLink{
     font-size: x-small;
-    font-family: Josefin Sans;
     text-align: center;
 }
 .year{
     background: linear-gradient(89deg, #bd7f8b 27%, #eecdd3 79%);;
     color: white;
-    font-family: Josefin Sans;
     text-align: center;
     font-size: 18px;
 }
