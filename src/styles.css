@@ -53,7 +53,7 @@
 
 
 @media (max-width: 800px) { 
-            .flag{
+            .img-not-to-show-on-mob{
                 display: none;
             }
         }
@@ -67,6 +67,7 @@
     margin: 30px 20px 20px 20px;
     color: var(--main-color);
     font-size: 18px;
+    line-height: 30px;
 }
 .header{
     font-size: 23px;
