@@ -78,6 +78,7 @@
     text-align: center;
     color: var(--main-color);
     display: flex;
+    justify-content: center;
 }
 .aboutPerson img{
     max-width: 188px;
